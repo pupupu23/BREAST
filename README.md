@@ -1,1 +1,2 @@
 The execution order is 01, 02, 03, 04. Each script has documentation, which can be accessed using the -h flag. For example: Rscript 04.multi_cox.r -h.
+01 is used to download the TCGA clinical and gene expression data; 02 is for performing batch univariate Cox regression analysis; 03 carries out the Lasso-penalized Cox analysis; and finally, 04 is for conducting multivariate Cox regression analysis.
